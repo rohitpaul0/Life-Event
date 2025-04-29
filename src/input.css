@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+    --primary-color1: #20a5a5;
+    --primary-color2: #2ad0bc;
+    --primary-color3: #ffffff;
+
+    --secondary-color1: #172943;
+    --secondary-color2: #1d3354;
+  }
+  .scrolled {
+    background: #172943;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  @theme {
+    --font-poppins: "Montserrat", sans-serif; 
+  }
+   
+  html{
+    scroll-behavior: smooth;
+  }
