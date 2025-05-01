@@ -7,13 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    
     <!-- icon -->
     <script
       src="https://kit.fontawesome.com/0d9ac24f03.js"
@@ -31,7 +25,7 @@
       }
     </style>
   </head>
-  <body class="font-poppins">
+  <body class="font-Comic">
     <!-- Navigation Bar -->
     <nav
       id="navbar"
@@ -72,7 +66,7 @@
 
     <!-- Hero Section -->
     <section
-      class="relative w-full min-h-screen flex flex-col justify-center items-start"
+      class="relative w-full min-h-dvh flex flex-col justify-center items-start"
     >
       <div class="absolute inset-0">
         <video
@@ -80,20 +74,20 @@
           autoplay
           loop
           muted
-          class="w-full h-full object-cover transition-opacity duration-500 ease-in-out"
+          class="w-full h-full object-cover transition-opacity duration-500 ease-in-out filter brightness-75"
         >
           <source src="./assets/Event-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
 
-      <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
+      <!-- <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div> -->
 
       <div
-        class="relative space-y-5 z-10 w-full pl-5 sm:pl-10 lg:pl-24 text-[color:var(--primary-color3)] mt-10"
+        class="relative space-y-5 z-10 w-full pl-4 sm:pl-10 lg:pl-24 text-[color:var(--primary-color3)] mt-6 sm:mt-12"
       >
         <h2 class="text-base md:text-lg font-bold">EVENT ORGANIZER</h2>
-        <h1 class="text-4xl sm:text-6xl lg:text-7xl w-full  font-extrabold pb-2 sm:pb-8">
+        <h1 class="text-[42px] leading-10 sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8">
           Create an <br>Unforgettable <br><span id="changing-text" class="text-[color:var(--primary-color2)] typing-cursor"></span> 
         </h1>
         <button
@@ -242,7 +236,7 @@
         class="w-[98%] mx-auto grid md:grid-cols-2 gap-6 items-center bg-[color:var(--secondary-color2)] px-5 rounded-md"
       >
         <!-- Left Side -->
-        <div class="relative py-8 ml-0 md:ml-8">
+        <div class="relative py-8 ml-0 lg:ml-8">
           <!-- Top Image -->
           <div
             class="overflow-hidden rounded-md w-full md:w-[94%] h-[20rem] transition-transform duration-500 ease-in-out transform hover:scale-[1.02]"
@@ -256,7 +250,7 @@
 
           <!-- Experience Box -->
           <div
-            class="absolute -left-6 top-[60%] transform -translate-y-1/2 bg-[color:var(--secondary-color1)] border-2 border-[color:var(--primary-color2)] py-6 px-10 text-center z-50"
+            class="absolute -left-6 top-[60%] transform -translate-y-1/2 bg-[color:var(--secondary-color1)] border-2 border-[color:var(--primary-color2)] py-4 md:py-6 px-5 md:px-10 text-center z-50"
           >
             <h2 class="text-[color:var(--primary-color2)] text-5xl font-bold">
               15<sup class="text-sm">Th</sup>
@@ -268,7 +262,7 @@
 
           <!-- Bottom Image -->
           <div
-            class="mt-8 overflow-hidden rounded-lg w-[94%] h-[20rem] transition-transform duration-500 ease-in-out transform hover:scale-[1.02]"
+            class="mt-8 overflow-hidden rounded-lg w-full md:w-[94%] h-[20rem] transition-transform duration-500 ease-in-out transform hover:scale-[1.02]"
           >
             <img
               src="./assets/5.jpg"
@@ -280,11 +274,11 @@
 
         <!-- Right Side -->
         <div>
-          <h4 class="text-center text-xl md:text-4xl font-bold mb-4">
+          <h4 class="text-center text-4xl font-bold mb-4">
             Why
             <span class="text-[color:var(--primary-color2)]">Choose Us </span>
           </h4>
-          <h1 class="text-[26px] text-center leading-tight mb-6">
+          <h1 class="text-[22px] text-center leading-tight mb-6">
             Very Responsible With Your Event
           </h1>
           <p class="text-gray-400 mb-10 text-base">
@@ -295,15 +289,15 @@
           </p>
 
           <!-- Features -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 text-white pt-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 text-white py-4">
             <div class="flex items-start gap-4">
               <div
-                class="text-[color:var(--primary-color2)] text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
+                class="text-[color:var(--primary-color2)] text-3xl md:text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
               >
                 <i class="fas fa-users"></i>
               </div>
               <div>
-                <h5 class="font-semibold text-2xl">Friendly Team</h5>
+                <h5 class="font-semibold text-xl md:text-2xl">Friendly Team</h5>
                 <p class="text-gray-400 text-base">
                   Aenean pharetra erat in nisl blandit hendrerit integer.
                 </p>
@@ -312,12 +306,12 @@
 
             <div class="flex items-start gap-4">
               <div
-                class="text-[color:var(--primary-color2)] text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
+                class="text-[color:var(--primary-color2)] text-3xl md:text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
               >
                 <i class="fas fa-store"></i>
               </div>
               <div>
-                <h5 class="font-semibold text-2xl">The Best Venues</h5>
+                <h5 class="font-semibold text-xl md:text-2xl">The Best Venues</h5>
                 <p class="text-gray-400 text-sm">
                   Aenean pharetra erat in nisl blandit hendrerit integer.
                 </p>
@@ -326,12 +320,12 @@
 
             <div class="flex items-start gap-4">
               <div
-                class="text-[color:var(--primary-color2)] text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
+                class="text-[color:var(--primary-color2)] text-3xl md:text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
               >
                 <i class="fas fa-lightbulb"></i>
               </div>
               <div>
-                <h5 class="font-semibold text-2xl">Unique Scenario</h5>
+                <h5 class="font-semibold text-xl md:text-2xl">Unique Scenario</h5>
                 <p class="text-gray-400 text-sm">
                   Aenean pharetra erat in nisl blandit hendrerit integer.
                 </p>
@@ -340,12 +334,12 @@
 
             <div class="flex items-start gap-4">
               <div
-                class="text-[color:var(--primary-color2)] text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
+                class="text-[color:var(--primary-color2)] text-3xl md:text-4xl transition-transform duration-300 ease-in-out hover:scale-125"
               >
                 <i class="fas fa-calendar-alt"></i>
               </div>
               <div>
-                <h5 class="font-semibold text-2xl">Awesome Event</h5>
+                <h5 class="font-semibold text-xl md:text-2xl">Awesome Event</h5>
                 <p class="text-gray-400 text-sm">
                   Aenean pharetra erat in nisl blandit hendrerit integer.
                 </p>
