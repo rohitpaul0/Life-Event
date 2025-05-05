@@ -9,7 +9,11 @@
 
     --secondary-color1: #172943;
     --secondary-color2: #1d3354;
+
+    --gradient-color: linear-gradient(135deg, #172943, #304870)
+
   }
+
   .scrolled {
     background: #172943;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
