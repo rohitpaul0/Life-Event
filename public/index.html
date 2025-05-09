@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/0d9ac24f03.js"
       crossorigin="anonymous"
     ></script>
+
     <style>
       .typing-cursor::after {
         content: "|";
@@ -31,14 +32,14 @@
       }
     </style>
   </head>
-  <body class="font-Comic">
+  <body class="font-poppins">
     <!-- Navigation Bar -->
     <nav
       id="navbar"
-      class="fixed left-0 w-full py-4 px-4 md:px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
+      class="fixed left-0 w-full py-5 px-4 md:px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
     >
       <h1 class="text-xl font-bold">LIFE EVENT</h1>
-      <ul class="md:flex text-[18px] font-bold hidden mg:block pl-20 space-x-6">
+      <ul class="md:flex text-[18px] font-semibold hidden mg:block pl-20 space-x-6">
         <li>
           <a href="#" class="hover:text-[color:var(--primary-color2)]">Home</a>
         </li>
@@ -64,7 +65,7 @@
         </li>
       </ul>
       <button
-        class="px-6 py-1 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
+        class="px-6 py-1 bg-[color:var(--primary-color1)] font-light rounded-lg hover:bg-[color:var(--primary-color2)]"
       >
         Call Now
       </button>
@@ -84,7 +85,7 @@
       >
         <h2 class="text-base md:text-lg font-bold">EVENT ORGANIZER</h2>
         <h1
-          class="text-[43px] leading-10 sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
+          class="text-[42px] leading-[47px] sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
         >
           Create an <br />Unforgettable <br /><span
             id="changing-text"
@@ -92,9 +93,9 @@
           ></span>
         </h1>
         <button
-          class="px-12 py-2 md:py-4 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
+          class="px-8 md:px-12 py-2 md:py-4 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
         >
-          OUR SERVICE
+          <a href="#Service">OUR SERVICE</a>
         </button>
       </div>
     </section>
@@ -108,7 +109,7 @@
         <h2 class="text-4xl font-bold mb-2">
           What <span class="text-[--primary-color1]">We Do</span>
         </h2>
-        <h1 class="text-xl">
+        <h1 class="text-[17px] md:text-xl">
           We Offer The Most Affordable & Best Wedding Planning Services
         </h1>
       </div>
@@ -252,14 +253,11 @@
             Why
             <span class="text-[color:var(--primary-color2)]">Choose Us </span>
           </h4>
-          <h1 class="text-[22px] text-center leading-tight mb-6">
+          <h1 class="text-[19px] md:text-xl text-center leading-tight mb-6">
             Very Responsible With Your Event
           </h1>
           <p class="text-gray-400 mb-10 text-base">
-            Cras porttitor urna eu metus efficitur, a tempus ligula vehicula.
-            Donec ornare pharetra metus nec vehicula. Etiam mauris dolor,
-            interdum id vestibulum et pharetra ac libero. Etiam vestibulum in mi
-            sit amet.
+            We understand that every event is special, which is why we handle every detail with care and precision. From planning to execution, our dedicated team ensures your event runs smoothly and leaves a lasting impression.
           </p>
 
           <!-- Features -->
@@ -273,7 +271,7 @@
               <div>
                 <h5 class="font-semibold text-xl md:text-2xl">Friendly Team</h5>
                 <p class="text-gray-400 text-base">
-                  Aenean pharetra erat in nisl blandit hendrerit integer.
+                  Supportive, responsive, and easy to work with.
                 </p>
               </div>
             </div>
@@ -289,7 +287,7 @@
                   The Best Venues
                 </h5>
                 <p class="text-gray-400 text-sm">
-                  Aenean pharetra erat in nisl blandit hendrerit integer.
+                  Top locations tailored to your event style.
                 </p>
               </div>
             </div>
@@ -305,7 +303,7 @@
                   Unique Scenario
                 </h5>
                 <p class="text-gray-400 text-sm">
-                  Aenean pharetra erat in nisl blandit hendrerit integer.
+                  Custom themes and creative setups just for you.
                 </p>
               </div>
             </div>
@@ -319,7 +317,7 @@
               <div>
                 <h5 class="font-semibold text-xl md:text-2xl">Awesome Event</h5>
                 <p class="text-gray-400 text-sm">
-                  Aenean pharetra erat in nisl blandit hendrerit integer.
+                  Memorable experiences with flawless execution.
                 </p>
               </div>
             </div>
@@ -356,24 +354,24 @@
 
     <!-- Contact us  -->
     <section id="Contact" class="bg-[color:var(--secondary-color1)] py-12">
-      <h2 class="text-5xl font-bold text-center text-white mb-10">
+      <h2 class="text-5xl font-bold text-center text-white mb-7 md:mb-10">
         Contact <span class="text-[--primary-color1]"> Us</span>
       </h2>
       <div
-        class="max-w-7xl mx-auto pt-6 flex flex-col md:flex-row items-center justify-between gap-10"
+        class="max-w-7xl mx-auto pt-6 flex flex-col lg:flex-row items-center justify-between gap-10"
       >
         <!-- Left: Image -->
-        <div class="w-full md:w-1/2 flex justify-center">
-          <img src="./assets/5.jpg" alt="Contact Image" class="shadow-lg" />
+        <div class="w-[90%] lg:w-1/2 flex justify-center">
+          <img src="./assets/5.jpg" alt="Contact Image" class="shadow-lg w-full h-full" />
         </div>
 
         <!-- Right: Contact Details -->
-        <div class="w-full md:w-[40%] space-y-5">
+        <div class="w-[90%] lg:w-[40%] space-y-5">
           <div class="pb-5">
             <h3 class="text-3xl font-bold text-[--primary-color3]">
               We'd Love to Hear From You
             </h3>
-            <p class="text-gray-300 mt-2">
+            <p class="text-gray-300 mt-2 text-sm md:text-base">
               Whether you have a question, a suggestion, or just want to say
               hello — feel free to reach out. Our team will get back to you as
               soon as possible.
@@ -394,7 +392,7 @@
               <h4 class="text-xl md:text-2xl font-semibold text-white">
                 Address
               </h4>
-              <p class="text-gray-600">123 Main Street, City, Country</p>
+              <p class="text-gray-400">123 Main Street, City, Country</p>
             </div>
           </div>
 
@@ -414,25 +412,19 @@
               <h4 class="text-xl md:text-2xl font-semibold text-white">
                 Phone
               </h4>
-              <p class="text-gray-600">+123 456 7890</p>
+              <p class="text-gray-400">+123 456 7890</p>
             </div>
           </div>
 
           <div class="flex items-start gap-4">
-            <svg
-              class="w-6 h-6 text-red-600"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M16 12H8m0 0l-4-4m4 4l-4 4m16-4H8"></path>
-            </svg>
+            <div class="w-6 h-6">
+              <img src="./assets/email.svg" alt="" srcset="">
+            </div>
             <div>
               <h4 class="text-xl md:text-2xl font-semibold text-white">
                 Email
               </h4>
-              <p class="text-gray-600">info@example.com</p>
+              <p class="text-gray-400">info@example.com</p>
             </div>
           </div>
         </div>
