@@ -35,7 +35,7 @@
     <!-- Navigation Bar -->
     <nav
       id="navbar"
-      class="fixed left-0 w-full py-4 px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
+      class="fixed left-0 w-full py-4 px-4 md:px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
     >
       <h1 class="text-xl font-bold">LIFE EVENT</h1>
       <ul class="md:flex text-[18px] font-bold hidden mg:block pl-20 space-x-6">
@@ -53,12 +53,12 @@
           >
         </li>
         <li>
-          <a href="#artist" class="hover:text-[color:var(--primary-color2)]"
-            >Artist</a
+          <a href="#Portfolio" class="hover:text-[color:var(--primary-color2)]"
+            >Portfolio</a
           >
         </li>
         <li>
-          <a href="#contact" class="hover:text-[color:var(--primary-color2)]"
+          <a href="#Contact" class="hover:text-[color:var(--primary-color2)]"
             >Contact</a
           >
         </li>
@@ -66,25 +66,25 @@
       <button
         class="px-6 py-1 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
       >
-        Contact us
+        Call Now
       </button>
     </nav>
 
     <!-- Hero Section -->
     <section
-      class="relative w-full min-h-screen flex flex-col justify-center items-start bg-cover bg-center"
+      class="relative w-full min-h-dvh flex flex-col justify-center items-start bg-cover bg-center"
       style="
         background-image: url('./assets/hamza-nouasria--3pvRUfQc-c-unsplash.jpg');
       "
     >
-      <div class="absolute inset-0 bg-[rgba(0,0,0,0.3)]"></div>
+      <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
 
       <div
         class="relative space-y-5 z-10 w-full pl-4 sm:pl-10 lg:pl-24 text-[color:var(--primary-color3)] mt-6 sm:mt-12"
       >
         <h2 class="text-base md:text-lg font-bold">EVENT ORGANIZER</h2>
         <h1
-          class="text-[42px] leading-10 sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
+          class="text-[43px] leading-10 sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
         >
           Create an <br />Unforgettable <br /><span
             id="changing-text"
@@ -328,8 +328,34 @@
       </div>
     </div>
 
+    <!-- Portfolio Section  -->
+    <section id="Portfolio" class="px-4 bg-gray-300 py-8">
+      <h2
+        class="text-4xl md:text-5xl font-bold text-center text-[--secondary-color2] mb-10"
+      >
+        Our Port<span class="text-[--primary-color1]">folio</span>
+      </h2>
+
+      <div class="columns-1 md:columns-2 lg:columns-3 gap-3 space-y-4">
+        <img class="w-full rounded-lg" src="./assets/Image1.jpeg" />
+        <img class="w-full rounded-lg" src="./assets/Image2.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image3.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image4.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image5.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image6.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image7.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image8.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image9.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image10.jpeg" />
+        <img class="w-full rounded-lg" src="./assets/Image11.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image12.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image13.jpg" />
+        <img class="w-full rounded-lg" src="./assets/Image14.jpg" />
+      </div>
+    </section>
+
     <!-- Contact us  -->
-    <section class="bg-[color:var(--secondary-color1)] py-12">
+    <section id="Contact" class="bg-[color:var(--secondary-color1)] py-12">
       <h2 class="text-5xl font-bold text-center text-white mb-10">
         Contact <span class="text-[--primary-color1]"> Us</span>
       </h2>
@@ -344,10 +370,13 @@
         <!-- Right: Contact Details -->
         <div class="w-full md:w-[40%] space-y-5">
           <div class="pb-5">
-            <h3 class="text-3xl font-bold text-[--primary-color3]">We'd Love to Hear From You</h3>
+            <h3 class="text-3xl font-bold text-[--primary-color3]">
+              We'd Love to Hear From You
+            </h3>
             <p class="text-gray-300 mt-2">
-              Whether you have a question, a suggestion, or just want to say hello — feel free to reach out.
-              Our team will get back to you as soon as possible.
+              Whether you have a question, a suggestion, or just want to say
+              hello — feel free to reach out. Our team will get back to you as
+              soon as possible.
             </p>
           </div>
 
