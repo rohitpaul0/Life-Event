@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Life Event</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- icon -->
@@ -39,7 +39,9 @@
       class="fixed left-0 w-full py-5 px-4 md:px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
     >
       <h1 class="text-xl font-bold">LIFE EVENT</h1>
-      <ul class="md:flex text-[18px] font-semibold hidden mg:block pl-20 space-x-6">
+      <ul
+        class="md:flex text-[18px] font-semibold hidden mg:block pl-20 space-x-6"
+      >
         <li>
           <a href="#" class="hover:text-[color:var(--primary-color2)]">Home</a>
         </li>
@@ -74,9 +76,7 @@
     <!-- Hero Section -->
     <section
       class="relative w-full min-h-dvh flex flex-col justify-center items-start bg-cover bg-center"
-      style="
-        background-image: url('./assets/hamza-nouasria--3pvRUfQc-c-unsplash.jpg');
-      "
+      style="background-image: url('./assets/heroSection.jpg')"
     >
       <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]"></div>
 
@@ -85,7 +85,7 @@
       >
         <h2 class="text-base md:text-lg font-bold">EVENT ORGANIZER</h2>
         <h1
-          class="text-[42px] leading-[47px] sm:leading-0 sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
+          class="text-[42px] leading-[44px] sm:leading-[67px] lg:leading-[75px] sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
         >
           Create an <br />Unforgettable <br /><span
             id="changing-text"
@@ -107,7 +107,7 @@
     >
       <div class="w-[86%]">
         <h2 class="text-4xl font-bold mb-2">
-          What <span class="text-[--primary-color1]">We Do</span>
+          What <span class="text-[color:var(--primary-color2)]">We Do</span>
         </h2>
         <h1 class="text-[17px] md:text-xl">
           We Offer The Most Affordable & Best Wedding Planning Services
@@ -206,26 +206,24 @@
     </section>
 
     <!-- Why Choose Us -->
-    <div class="w-full bg-[color:var(--secondary-color1)] text-white p-4">
+    <div class="w-full bg-[color:var(--secondary-color1)] text-white p-4 pb-15">
       <div
         class="w-[98%] mx-auto grid md:grid-cols-2 gap-6 items-center bg-[color:var(--secondary-color2)] px-5 rounded-md"
       >
         <!-- Left Side -->
         <div class="relative py-8 ml-0 lg:ml-8">
           <!-- Top Image -->
-          <div
-            class="overflow-hidden rounded-md w-full md:w-[94%] h-[20rem] transition-transform duration-500 ease-in-out transform hover:scale-[1.02]"
-          >
+          <div class="overflow-hidden rounded-md w-full md:w-[94%] h-[20rem]">
             <img
               src="./assets/3.jpg"
               alt="Celebration"
-              class="object-cover opacity-80 w-full h-full"
+              class="object-cover opacity-80 w-full h-full transition-transform duration-500 ease-in-out transform hover:scale-[1.03]"
             />
           </div>
 
           <!-- Experience Box -->
           <div
-            class="absolute -left-6 top-[60%] transform -translate-y-1/2 bg-[color:var(--secondary-color1)] border-2 border-[color:var(--primary-color2)] py-4 md:py-6 px-5 md:px-10 text-center z-50"
+            class="absolute -left-6 top-[50%] transform -translate-y-1/2 bg-[color:var(--secondary-color1)] border-2 border-[color:var(--primary-color2)] py-4 md:py-6 px-5 md:px-10 text-center z-10"
           >
             <h2 class="text-[color:var(--primary-color2)] text-5xl font-bold">
               15<sup class="text-sm">Th</sup>
@@ -237,12 +235,12 @@
 
           <!-- Bottom Image -->
           <div
-            class="mt-8 overflow-hidden rounded-lg w-full md:w-[94%] h-[20rem] transition-transform duration-500 ease-in-out transform hover:scale-[1.02]"
+            class="mt-8 overflow-hidden rounded-lg w-full md:w-[94%] h-[20rem]"
           >
             <img
               src="./assets/5.jpg"
               alt="Party"
-              class="object-cover opacity-80 w-full h-full"
+              class="object-cover opacity-80 w-full h-full transition-transform duration-500 ease-in-out transform hover:scale-[1.03]"
             />
           </div>
         </div>
@@ -257,7 +255,10 @@
             Very Responsible With Your Event
           </h1>
           <p class="text-gray-400 mb-10 text-base">
-            We understand that every event is special, which is why we handle every detail with care and precision. From planning to execution, our dedicated team ensures your event runs smoothly and leaves a lasting impression.
+            We understand that every event is special, which is why we handle
+            every detail with care and precision. From planning to execution,
+            our dedicated team ensures your event runs smoothly and leaves a
+            lasting impression.
           </p>
 
           <!-- Features -->
@@ -329,9 +330,9 @@
     <!-- Portfolio Section  -->
     <section id="Portfolio" class="px-4 bg-gray-300 py-8">
       <h2
-        class="text-4xl md:text-5xl font-bold text-center text-[--secondary-color2] mb-10"
+        class="text-4xl md:text-5xl font-bold text-center text-[color:var(--secondary-color2)] mb-10"
       >
-        Our Port<span class="text-[--primary-color1]">folio</span>
+        Our Port<span class="text-[color:var(--primary-color1)]">folio</span>
       </h2>
 
       <div class="columns-1 md:columns-2 lg:columns-3 gap-3 space-y-4">
@@ -355,20 +356,26 @@
     <!-- Contact us  -->
     <section id="Contact" class="bg-[color:var(--secondary-color1)] py-12">
       <h2 class="text-5xl font-bold text-center text-white mb-7 md:mb-10">
-        Contact <span class="text-[--primary-color1]"> Us</span>
+        Contact <span class="text-[color:var(--primary-color1)]"> Us</span>
       </h2>
       <div
         class="max-w-7xl mx-auto pt-6 flex flex-col lg:flex-row items-center justify-between gap-10"
       >
         <!-- Left: Image -->
-        <div class="w-[90%] lg:w-1/2 flex justify-center">
-          <img src="./assets/5.jpg" alt="Contact Image" class="shadow-lg w-full h-full" />
+        <div
+          class="w-[90%] lg:w-1/2 flex justify-center transition-transform duration-500 ease-in-out transform hover:scale-[1.03]"
+        >
+          <img
+            src="./assets/5.jpg"
+            alt="Contact Image"
+            class="shadow-lg w-full h-full"
+          />
         </div>
 
         <!-- Right: Contact Details -->
         <div class="w-[90%] lg:w-[40%] space-y-5">
           <div class="pb-5">
-            <h3 class="text-3xl font-bold text-[--primary-color3]">
+            <h3 class="text-3xl font-bold text-[color:var(--primary-color3)]">
               We'd Love to Hear From You
             </h3>
             <p class="text-gray-300 mt-2 text-sm md:text-base">
@@ -418,7 +425,7 @@
 
           <div class="flex items-start gap-4">
             <div class="w-6 h-6">
-              <img src="./assets/email.svg" alt="" srcset="">
+              <img src="./assets/email.svg" alt="" srcset="" />
             </div>
             <div>
               <h4 class="text-xl md:text-2xl font-semibold text-white">
@@ -446,11 +453,11 @@
 
       // Text Style
       const phrases = [
-        "Experience With Us",
         "Moment With Us",
-        "Gathering With Us",
         "Party With Us",
         "Memory With Us",
+        "Experience",
+        "Gathering",
       ];
 
       let currentPhraseIndex = 0;
