@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Life Event</title>
-    <link rel="icon" href="./assets/logo.png" type="image/png" sizes="64x64">
+    <link rel="icon" href="./assets/logo.png" type="image/png" sizes="64x64" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
 
     <!-- icon -->
     <script
@@ -38,7 +42,7 @@
       id="navbar"
       class="fixed left-0 w-full py-5 px-4 md:px-7 lg:px-10 flex justify-between items-center z-50 text-[color:var(--primary-color3)]"
     >
-      <h1 class="text-xl font-bold">
+      <h1 class="text-[23px] font-bold">
         LIFE <span class="text-[color:var(--primary-color2)]">EVENT</span>
       </h1>
 
@@ -94,7 +98,7 @@
     <!-- Mobile Menu (hidden by default) -->
     <div
       id="mobile-menu"
-      class="hidden md:hidden flex-col text-white bg-[color:var(--secondary-color1)] text-center fixed left-0 w-[300px] h-full z-60 shadow-md space-y-6 pt-20 text-[18px] font-semibold"
+      class="hidden md:hidden flex-col text-white bg-[color:var(--secondary-color1)] text-center fixed left-0 w-[250px] h-full z-60 shadow-md space-y-6 pt-20 text-[18px] font-semibold"
     >
       <h1 class="text-xl font-bold">
         LIFE <span class="text-[color:var(--primary-color2)]">EVENT</span>
@@ -129,9 +133,12 @@
       <div
         class="relative space-y-5 z-10 w-full pl-4 sm:pl-10 lg:pl-24 text-[color:var(--primary-color3)] mt-6 sm:mt-12"
       >
-        <h2 class="text-base md:text-lg font-bold">EVENT ORGANIZER</h2>
+        <h2 data-aos="fade-up" class="text-base md:text-lg font-bold">
+          EVENT ORGANIZER
+        </h2>
         <h1
-          class="text-[42px] leading-[44px] sm:leading-[67px] lg:leading-[75px] sm:text-6xl lg:text-7xl w-full font-extrabold pb-2 sm:pb-8"
+          data-aos="fade-up"
+          class="text-[42px] leading-[44px] sm:leading-[67px] lg:leading-[75px] sm:text-6xl lg:text-7xl w-full font-extrabold pb-3 sm:pb-8"
         >
           Create an <br />Unforgettable <br /><span
             id="changing-text"
@@ -139,7 +146,8 @@
           ></span>
         </h1>
         <button
-          class="px-8 md:px-12 py-2 md:py-4 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
+          data-aos="fade-up"
+          class="px-6 md:px-12 py-2 md:py-4 bg-[color:var(--primary-color1)] font-semibold rounded-lg hover:bg-[color:var(--primary-color2)]"
         >
           <a href="#Service">OUR SERVICE</a>
         </button>
@@ -165,11 +173,12 @@
       >
         <!-- Card 1 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-3xl h-[20rem] border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
             src="./assets/wedding-marry.svg"
-            class=" w-13 p-2 bg-white group-hover:bg-[#2ad0bc] group-active:bg-[#2ad0bc] transition-all duration-300 rounded-md"
+            class="w-13 p-2 bg-white group-hover:bg-[#2ad0bc] group-active:bg-[#2ad0bc] transition-all duration-300 rounded-md"
             loading="lazy"
           />
           <h2 class="text-2xl font-bold text-white">Weddings</h2>
@@ -180,6 +189,7 @@
 
         <!-- Card 2 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-3xl h-[20rem] shadow-md overflow-hidden border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
@@ -196,6 +206,7 @@
 
         <!-- Card 3 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-3xl h-[20rem] shadow-md overflow-hidden border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
@@ -211,6 +222,7 @@
 
         <!-- Card 4 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-3xl h-[20rem] shadow-md overflow-hidden border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
@@ -226,6 +238,7 @@
 
         <!-- Card 5 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-2xl h-[20rem] shadow-md overflow-hidden border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
@@ -241,6 +254,7 @@
 
         <!-- Card 6 -->
         <div
+          data-aos="fade-up"
           class="group flex flex-col p-10 gap-3 items-center justify-center rounded-3xl h-[20rem] shadow-md overflow-hidden border-2 border-[#172943] hover:border-[#2ad0bc] active:border-[#2ad0bc] transition-all duration-300 bg-[image:var(--gradient-color)]"
         >
           <img
@@ -265,7 +279,10 @@
         <!-- Left Side -->
         <div class="relative py-8 ml-0 lg:ml-8">
           <!-- Top Image -->
-          <div class="overflow-hidden rounded-md w-full md:w-[94%] h-[20rem]">
+          <div
+            data-aos="fade-up"
+            class="overflow-hidden rounded-md w-full md:w-[94%] h-[20rem]"
+          >
             <img
               src="./assets/3.jpg"
               alt="Celebration"
@@ -275,6 +292,7 @@
 
           <!-- Experience Box -->
           <div
+            data-aos="fade-up"
             class="absolute -left-6 top-[50%] transform -translate-y-1/2 bg-[color:var(--secondary-color1)] border-2 border-[color:var(--primary-color2)] py-4 md:py-6 px-5 md:px-10 text-center z-10"
           >
             <h2 class="text-[color:var(--primary-color2)] text-5xl font-bold">
@@ -287,6 +305,7 @@
 
           <!-- Bottom Image -->
           <div
+            data-aos="fade-up"
             class="mt-8 overflow-hidden rounded-lg w-full md:w-[94%] h-[20rem]"
           >
             <img
@@ -298,7 +317,7 @@
         </div>
 
         <!-- Right Side -->
-        <div>
+        <div data-aos="fade-up">
           <h4 class="text-center text-4xl font-bold mb-4">
             Why
             <span class="text-[color:var(--primary-color2)]">Choose Us </span>
@@ -380,17 +399,17 @@
     </div>
 
     <!-- About Us -->
-    <section
-    id="About"
-     class="bg-[#122036] text-white py-10 px-8 md:px-20">
-      <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-7 md:mb-10">
+    <section id="About" class="bg-[#122036] text-white py-10 px-6 md:px-20">
+      <h2
+        class="text-4xl md:text-5xl font-bold text-center text-white mb-7 md:mb-10"
+      >
         About <span class="text-[color:var(--primary-color1)]"> Us</span>
       </h2>
       <div
         class="max-w-8xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-0"
       >
         <!-- Image -->
-        <div class="lg:w-[48%] p-0 xl:py-4">
+        <div data-aos="fade-up" class="w-full lg:w-[48%] p-0 xl:py-4">
           <img
             src="./assets/aboutImg.jpg"
             alt="Event Management Team"
@@ -404,10 +423,11 @@
           <h2 class="text-4xl font-extrabold mb-4">
             The Creative Minds Behind The Events
           </h2>
-          <p class="text-base w-full  text-gray-300 mb-6">
+          <p class="text-base w-full text-gray-300 mb-6">
             Welcome to
-            <span class="text-[color:var(--primary-color2)] font-semibold">Life Event</span>,
-            where every celebration is a carefully crafted masterpiece. Our
+            <span class="text-[color:var(--primary-color2)] font-semibold"
+              >Life Event</span
+            >, where every celebration is a carefully crafted masterpiece. Our
             journey began with a shared passion for storytelling through
             unforgettable events. From weddings to corporate gatherings, we
             transform visions into reality—making every moment count with style,
@@ -431,23 +451,108 @@
       </h2>
 
       <div class="columns-1 md:columns-2 lg:columns-3 gap-3 space-y-4">
-        <img class="w-full rounded-lg" src="./assets/Image17.jpg" loading="lazy" />
-        <img class="w-full rounded-lg" src="./assets/Image2.jpg" loading="lazy" />
-        <img class="w-full rounded-lg" src="./assets/Image3.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/image.jpg" loading="lazy"/>  
-        <img class="w-full rounded-lg" src="./assets/Image4.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image5.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image6.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image7.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image12.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image8.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image10.jpeg" loading="lazy"/> 
-        <img class="w-full rounded-lg" src="./assets/Image13.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/Image14.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/image15.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/image16.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/image1.jpg" loading="lazy"/>
-        <img class="w-full rounded-lg" src="./assets/image22.jpg" loading="lazy"/>
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image17.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image2.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image3.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/image.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image4.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image5.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image6.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image7.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image12.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image8.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image10.jpeg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image13.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/Image14.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/image15.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/image16.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/image1.jpg"
+          loading="lazy"
+        />
+        <img
+          data-aos="fade-up"
+          class="w-full rounded-lg"
+          src="./assets/image22.jpg"
+          loading="lazy"
+        />
       </div>
     </section>
 
@@ -460,13 +565,11 @@
         class="max-w-7xl mx-auto pt-6 flex flex-col lg:flex-row items-center justify-between gap-10 px-0 lg:px-7 xl:px-0"
       >
         <!-- Left: Image -->
-        <div
-          class="w-[90%] lg:w-1/2 flex justify-center transition-transform duration-500 ease-in-out transform hover:scale-[1.03]"
-        >
+        <div data-aos="fade-up" class="w-[90%] lg:w-1/2 flex justify-center">
           <img
-            src="./assets/5.jpg"
+            src="./assets/contact-us.jpg"
             alt="Contact Image"
-            class="shadow-lg w-full h-full"
+            class="shadow-lg rounded-lg w-full h-full opacity-70 transition-transform duration-500 ease-in-out transform hover:scale-[1]"
             loading="lazy"
           />
         </div>
@@ -484,9 +587,7 @@
             </p>
           </div>
 
-          <div
-            class="flex items-center gap-4"
-          >
+          <div class="flex items-center gap-4">
             <i class="fa-solid fa-location-dot text-xl text-gray-300"></i>
             <div class="pl-2">
               <h4 class="text-xl font-semibold text-white">Address</h4>
@@ -494,9 +595,7 @@
             </div>
           </div>
 
-          <div
-            class="flex items-center gap-4"
-          >
+          <div class="flex items-center gap-4">
             <i class="fa-solid fa-phone text-xl text-gray-300"></i>
             <div class="pl-2">
               <h4 class="text-xl font-semibold text-white">Phone</h4>
@@ -504,9 +603,7 @@
             </div>
           </div>
 
-          <div
-            class="flex items-center gap-4"
-          >
+          <div class="flex items-center gap-4">
             <i class="fa-solid fa-envelope text-xl text-gray-300"></i>
             <div class="pl-2">
               <h4 class="text-xl font-semibold text-white">Email</h4>
@@ -516,8 +613,6 @@
         </div>
       </div>
     </section>
-
-    
 
     <!-- Footer -->
     <section
@@ -696,14 +791,24 @@
 
         isMenuOpen = !isMenuOpen;
       }
-    document.addEventListener("click", function (e) {
-    const menu = document.getElementById("mobile-menu");
-    const icon = document.getElementById("menu-icon");
+      document.addEventListener("click", function (e) {
+        const menu = document.getElementById("mobile-menu");
+        const icon = document.getElementById("menu-icon");
 
-    if (isMenuOpen && !menu.contains(e.target) && !icon.contains(e.target)) {
-      showSlidebar(); // just reuse the toggle function
-    }
-  });
+        if (
+          isMenuOpen &&
+          !menu.contains(e.target) &&
+          !icon.contains(e.target)
+        ) {
+          showSlidebar(); // just reuse the toggle function
+        }
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800
+      });
     </script>
   </body>
 </html>
