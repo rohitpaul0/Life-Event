@@ -98,7 +98,7 @@
     <!-- Mobile Menu (hidden by default) -->
     <div
       id="mobile-menu"
-      class="hidden md:hidden flex-col text-white bg-[color:var(--secondary-color1)] text-center fixed left-0 w-[250px] h-screen z-60 shadow-md space-y-6 pt-20 text-[18px] font-semibold"
+      class="hidden md:hidden flex-col text-white bg-[color:var(--secondary-color1)] text-center fixed left-0 w-[250px] h-screen z-60 shadow-md space-y-6 pt-20 text-[18px] font-semibold transition duration-400 transform ease-in-out"
     >
       <h1 class="text-xl font-bold">
         LIFE <span class="text-[color:var(--primary-color2)]">EVENT</span>
@@ -791,6 +791,7 @@
 
         isMenuOpen = !isMenuOpen;
       }
+      
       document.addEventListener("click", function (e) {
         const menu = document.getElementById("mobile-menu");
         const icon = document.getElementById("menu-icon");
@@ -800,7 +801,7 @@
           !menu.contains(e.target) &&
           !icon.contains(e.target)
         ) {
-          showSlidebar(); // just reuse the toggle function
+          showSlidebar();
         }
       });
     </script>
